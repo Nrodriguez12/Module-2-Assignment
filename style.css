@@ -1,0 +1,82 @@
+
+
+
+.Menu{
+	width: 300px;
+	height: 170px;
+	background-color: gray;
+	border: 3px solid black;
+	margin: 10px;
+	position: relative;
+	align-content: center;
+}
+h1{
+	text-align: center;
+	margin-top: 150px;
+}
+h3{
+	text-align: center;
+	border: 1px solid black;
+	width: 70px;
+	margin-top: -1px;
+	float: right;
+}
+p{
+	padding: 5px;
+}
+#chick{
+	background-color: yellow;
+}
+#beef{
+	background-color: red;
+	color: white;
+}
+#sus{
+	background-color: skyblue;
+}
+.row{
+	width: 100%;
+	margin: auto;
+}
+@media (min-width: 992px) {
+	#col-lg-1, #col-lg-2, #col-lg-3{
+		float: left;
+	}
+	#col-lg-1{
+		width: 30.33%;
+	}
+	#col-lg-2{
+		width: 30.33%;
+	}
+	#col-lg-3{
+		width: 30.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#col-lg-1, #col-lg-2, #col-lg-3{
+		float: left;
+	}
+	#col-lg-1{
+		width: 40%;
+	}
+	#col-lg-2{
+		width: 40%;
+	}
+	#col-lg-3{
+		width: 80%;
+	}
+}
+@media (max-width: 767px){
+	#col-lg-1, #col-lg-2, #col-lg-3{
+		float: left;
+	}
+	#col-lg-1{
+		width: 80%;
+	}
+	#col-lg-2{
+		width: 80%;
+	}
+	#col-lg-3{
+		width: 80%;
+	}
+}
